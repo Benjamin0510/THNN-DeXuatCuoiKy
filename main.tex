@@ -1,0 +1,112 @@
+% Thêm vào preamble nếu chưa có:
+\usepackage[absolute,overlay]{textpos}
+\usepackage{graphicx}
+
+% Slide mở đầu
+\begin{frame}[plain,noframenumbering]
+\placelogofalse
+
+% --- Logo trường ở góc trái trên ---
+\begin{textblock*}{3cm}(0.3cm,0.3cm) % (x, y) tính từ góc trái trên slide
+    \includegraphics[width=2.5cm]{logo.png}
+\end{textblock*}
+
+\vspace{1cm} % cách lề trên
+
+% --- Tên môn học ---
+\centering
+{\LARGE \textbf{Thực hành nghề nghiệp}}\\[0.5cm]
+
+% --- Tên đề tài ---
+{\large \textbf{Đề xuất đề tài cuối kỳ:}}\\[0.3cm]
+{\Large \textbf{Phát triển ứng dụng web quản lý khách sạn}}\\
+{\large \textit{(Web-based Hotel Management Application Proposal)}}\\[1.2cm]
+
+% --- Thông tin hướng dẫn ---
+{\normalsize \textbf{Giảng viên hướng dẫn:} TS Trần Sơn Hải}\\[0.2cm]
+{\normalsize \textbf{Trợ giảng:} Lê Thanh Thoại}\\[0.2cm]
+{\normalsize \textbf{Thực hiện bởi:} Nhóm 5}
+
+\end{frame}
+
+
+\placelogotrue
+
+% Slide giới thiệu thành viên
+\begin{frame}
+    \frametitle{Giới thiệu thành viên}
+    \begin{itemize}
+        \item Họ và tên: Nguyễn Văn A
+        \item MSSV: 12345678
+        \item Lớp: K62CNTT
+        \item Email: nguyenvana@example.com
+    \end{itemize}
+\end{frame}
+
+% Slide tóm tắt nội dung chính
+\begin{frame}
+    \frametitle{Tóm tắt nội dung chính}
+    \tableofcontents
+\end{frame}
+
+% 1. Lý do chọn đề tài
+\section{Lý do chọn đề tài}
+\begin{frame}
+    \frametitle{Lý do chọn đề tài}
+    Viết lý do tại sao bạn chọn đề tài ở đây.
+\end{frame}
+
+% 2. Mục tiêu và sản phẩm đầu ra
+\section{Mục tiêu và sản phẩm đầu ra}
+\begin{frame}
+    \frametitle{Mục tiêu và sản phẩm đầu ra}
+    Trình bày các mục tiêu chính và sản phẩm dự kiến.
+\end{frame}
+
+% 3. Giải pháp đề xuất
+\section{Giải pháp đề xuất}
+\begin{frame}
+    \frametitle{Giải pháp đề xuất}
+    Nêu ý tưởng giải pháp kỹ thuật hoặc tổ chức.
+\end{frame}
+
+% 4. Kiến thức và công nghệ sử dụng
+\section{Kiến thức và công nghệ sử dụng}
+\begin{frame}
+    \frametitle{Kiến thức và công nghệ sử dụng}
+    Danh sách công nghệ và kiến thức nền tảng được áp dụng.
+\end{frame}
+
+% 5. Tài nguyên sử dụng
+\section{Tài nguyên sử dụng}
+\begin{frame}
+    \frametitle{Tài nguyên sử dụng}
+    Trình bày các tài nguyên như phần mềm, phần cứng, dữ liệu.
+\end{frame}
+
+% 6. Phân công công việc và kế hoạch thực hiện
+\section{Phân công và kế hoạch}
+\begin{frame}
+    \frametitle{Phân công công việc và kế hoạch thực hiện}
+    Trình bày lịch trình, biểu đồ Gantt, ai làm gì, khi nào.
+\end{frame}
+
+% 7. Khả thi và rủi ro dự kiến
+\section{Khả thi và rủi ro}
+\begin{frame}
+    \frametitle{Khả thi và rủi ro dự kiến}
+    Đánh giá mức độ khả thi, các rủi ro, cách xử lý.
+\end{frame}
+
+% 8. Tài liệu tham khảo
+\section{Tài liệu tham khảo}
+\begin{frame}[allowframebreaks]
+    \frametitle{Tài liệu tham khảo}
+    \printbibliography
+\end{frame}
+
+% Slide kết thúc và lời cảm ơn
+\begin{frame}
+    \frametitle{Lời cảm ơn}
+    Xin chân thành cảm ơn thầy/cô và các bạn đã lắng nghe!
+\end{frame}
